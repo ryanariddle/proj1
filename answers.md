@@ -14,6 +14,7 @@ It sends the pokemon's id to the function as a parameter
 	We passed in back, which works because you have already been at that page, so you know it's there.
 
 # Question 5: Explain how putting this line "flash[:error] = @pokemon.errors.full_messages.to_sentence" shows error messages on your form.
+	errors.full_messages.to_sentence is an error log and the command takes this log and prints it with the to_sentence command
 
 # Give us feedback on the project and decal below!
 
